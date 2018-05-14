@@ -4,7 +4,7 @@ using System.Collections;
 //Adding this allows us to access members of the UI namespace including Text.
 using UnityEngine.UI;
 
-public class CompletePlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 
 	public float speed;				//Floating point variable to store the player's movement speed.
 	public Text countText;			//Store a reference to the UI Text component which will display the number of pickups collected.
